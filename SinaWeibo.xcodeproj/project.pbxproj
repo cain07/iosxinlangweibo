@@ -8,22 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A4A076001D59B24000E11801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A075FF1D59B24000E11801 /* main.m */; };
-		A4A076031D59B24000E11801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A076021D59B24000E11801 /* AppDelegate.m */; };
-		A4A076061D59B24000E11801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A076051D59B24000E11801 /* ViewController.m */; };
 		A4A076091D59B24000E11801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A076071D59B24000E11801 /* Main.storyboard */; };
 		A4A0760B1D59B24000E11801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A0760A1D59B24000E11801 /* Assets.xcassets */; };
+		A4A076161D5ADEFE00E11801 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A4A076151D5ADEFE00E11801 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4A075FB1D59B24000E11801 /* SinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A075FF1D59B24000E11801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4A076011D59B24000E11801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A4A076021D59B24000E11801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4A076041D59B24000E11801 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4A076051D59B24000E11801 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4A076081D59B24000E11801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A0760A1D59B24000E11801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A0760F1D59B24000E11801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A076151D5ADEFE00E11801 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +52,7 @@
 		A4A075FD1D59B24000E11801 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				A4A076011D59B24000E11801 /* AppDelegate.h */,
-				A4A076021D59B24000E11801 /* AppDelegate.m */,
-				A4A076041D59B24000E11801 /* ViewController.h */,
-				A4A076051D59B24000E11801 /* ViewController.m */,
+				A4A076151D5ADEFE00E11801 /* Classes */,
 				A4A076071D59B24000E11801 /* Main.storyboard */,
 				A4A0760A1D59B24000E11801 /* Assets.xcassets */,
 				A4A0760F1D59B24000E11801 /* Info.plist */,
@@ -134,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A076161D5ADEFE00E11801 /* Classes in Resources */,
 				A4A0760B1D59B24000E11801 /* Assets.xcassets in Resources */,
 				A4A076091D59B24000E11801 /* Main.storyboard in Resources */,
 			);
@@ -146,8 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A076061D59B24000E11801 /* ViewController.m in Sources */,
-				A4A076031D59B24000E11801 /* AppDelegate.m in Sources */,
 				A4A076001D59B24000E11801 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
